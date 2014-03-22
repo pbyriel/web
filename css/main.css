@@ -10,15 +10,13 @@
 .header h1 {
   font-size: 22px;
   padding: 0 0 5px 0;
-  margin: 30px 0 30px 0;
- }
+  margin: 30px 0 30px 0;}
 .header .nav {
   margin-top: -60px;
   float: right; }
-
 .header img {
       width: 20px;
-    opacity: 0.5; }
+    opacity: 0.3; }
 .header img:hover {
     opacity: 1; }
 
@@ -32,8 +30,7 @@ ol.index li {
     line-height: 22px; }
 ol.index .header  {
     color: #999999;
-    font-size: 12px;
-}
+    font-size: 12px;}
 ol.index .header {
     float: left;
     min-width: 115px; }
@@ -53,18 +50,7 @@ ol.index .meta a {
       color: #cccccc;
       font-size: 11px; }
 
-left {
-  float: left; }
-
-
-.right {
-  float: right; }
-
-.clear {
-  clear: both; }
-
 .glyphicon-forward {
     opacity: 0.3;
     margin: 0 10px 0 -40px;
-    font-size: 10px;
-}
+    font-size: 10px;}
