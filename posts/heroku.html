@@ -21,13 +21,15 @@
                 <a href="mailto:peter.byriel@gmail.com">
                 <img src="../img/iconmonstr-email-3-black.png"></a>
             </div>
-            <h1 class="page-header">What I learned about deploying to Heroku</h1>
+            <h1 class="page-header">What I learned about deploying to Heroku <small>22 03 2014</small></h1>
             <div class="nav">
                 <a href="../home.html">home</a>
             </div>
         </div>
         <div class="content">
-            <p class="text-left">Having heard about <a href="http://www.heroku.com" target="_blank">heroku</a> and being curious, I decided to go ahead and host this page there. My goal was to learn a bit about the backend of web dev. I quickly ran into a lot of problems - which could all have been avoided easily. So here are some very practical tips for deploying your app or page.</p>
+            <p class="text-left"><span class="label label-danger">Work in progress</span> Having heard about <a href="http://www.heroku.com" target="_blank">heroku</a>, I decided to host this page there. My goal was to learn a bit about the backend of web dev in the proces. I quickly ran into a lot of problems - which could easily have been avoided. So here are some  practical tips for deployment.</p>
+            <h2>Get an account at Heroku</h2>
+            <p class="text-left">Got to <a href="http:www.heroku.com" target="_blank">heroku.com</a> and register for an account. But once done, don't create an app yet - we'll build it using git later (this makes the proces as a whole much easier).</p>
             <h2>Get the Toolbelt</h2>
             <p class="text-left">You  need to be able to run heroku commands from the console. In order to do this, you should download the herouku <a href="https://toolbelt.heroku.com/" target="blank">toolbelt</a>. Follow the download instructions and then look at the next section below. 
             <h2>Static or dynamic?</h2>
@@ -35,8 +37,13 @@
             <p class="text-left">The proces is explained really well at this resource: <a href="http://www.lemiffe.com/how-to-deploy-a-static-page-to-heroku-the-easy-way/">"How to deploy a static page to heruko the easy way"</a> by lemiffe.</p>
 
             <h2>Using git and github for deployment</h2>
-            <p class="text-left">If you're not familiar working with git, there is a really great guide here, made by Git and Code School.</p>
+            <p class="text-left">If you're not familiar working with git, there is a really <a href="http://try.github.io/levels/1/challenges/1" target="_blank">great guide</a>, made by Git and Code School. It only takes about 15 minutes and is well worth it.</p>
             <p class="text-left">Once you've gone through the guide, get an account at <a href="http:www.github.com">github</a>.</p>
+            <p class="text-left">Next, fire up your console. Once started, use <kbd>cd</kbd> to get to the folder you want to stage to git. Then type in the commands to add a new local git repo. Stage, commit - but don't push to git just yet. Your commands should look lise this (<code>$</code> representing your prompt):</p>
+                <pre>$ git init // initialize this folder as a repo<br>$ git add . // stage all changes<br>$ git commit -am "Your message here" // commit changes<br>// remember: don't push changes to git just yet</pre>
+            <p class="text-left">Now it's time to make a heroku app and deploy your git repo to it:</p>
+            <pre>$ heroku create // create new app at heruko<br>$ git push heroku master // pushes the master branch to heroku</pre>
+            <p class="text-left">Congrats! You're done! If you run into uanticipated problems, check out this guide by heroku <a href="https://devcenter.heroku.com/articles/git" target="_blank">on using git with heroku</a>.
             <div class="spacer100"></div>
             <!-- REUSABLE CSS COMPONENTS FROM BOOTSTRAP -->
                 <!-- For multiple code lines: <pre> -->
