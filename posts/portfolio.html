@@ -1,11 +1,121 @@
-<!-- Makes a row (by 12) with 2 columns, that stacks on small devices -->
-<!-- brug class="img-responsive" -->
+<!DOCTYPE html>
+<!-- Footer icons by iconmonstr.com -->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>&#64;pbyriel</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
+    <link href="../css/main.css" media="screen" rel="stylesheet">
+    <link href="../css/posts.css" media="screen" rel="stylesheet">
+</head>
+<body class="home">
+    <div class="container">
+        <div class="header">
+            <div class="social">
+                <a href="http://www.twitter.com/pbyriel" target="_blank">
+                <img src="../img/iconmonstr-twitter-black.png"></a>
+                <a href="http://www.github.com/pbyriel" target="_blank">
+                <img src="../img/iconmonstr-github-6-black.png"></a>
+                <a href="mailto:peter.byriel@gmail.com">
+                <img src="../img/iconmonstr-email-3-black.png"></a>
+            </div>
+            <h1 class="page-header">Portfolio from &#35;fewd course</h1>
+            <div class="nav">
+                <a href="../home.html">home</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="post">
+                <p class="text-left">I just finished the mentored front end web development course at <a href="http://www.thinkful.com" target="_blank">Thinkful</a>. I dived deeper into html, css, frameworks (Bootstrap), Javascript, jQuery, AJAX and basic ux development as well as a how to use git and github. My favorite part was building an api to YouTube using AJAX. An intense experience but also lots of fun.</p>
+                    
+                <p class="text-left last">Here are four of the projects I coded during the course:</p>
+                <!-- Makes a row (by 12) with 2 columns, that stacks on small devices -->
+                <!-- brug class="img-responsive" -->
 
-<div class="row">
-    <div class="col-sm-6">
-        <img class="img-responsive" src="" alt="">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="http://pbyriel.github.io/api" target="_blank" class="thumbnail">
+                            <img class="img-responsive" src="../img/api.png" alt="">
+                            <div class="caption">
+                            <h2>YouTube API for TED-Ed videos</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="http://pbyriel.github.io/quiz" target="_blank" class="thumbnail">
+                            <img class="img-responsive" src="../img/quiz.png" alt="">
+                            <div class="caption">
+                            <h2>Quiz</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="http://pbyriel.github.io/shopping-list" target="_blank" class="thumbnail">
+                            <img class="img-responsive" src="../img/shopping-list.png" alt="">
+                            <div class="caption">
+                            <h2>Shopping list</h2>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        <a href="http://pbyriel.github.io/streetfighter" target="_blank" class="thumbnail">
+                            <img class="img-responsive" src="../img/streetfighter.png" alt="">
+                            <div class="caption">
+                            <h2>Streetfighter</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- REUSABLE CSS COMPONENTS FROM BOOTSTRAP -->
+                <!-- For multiple code lines: <pre> -->
+                <!-- To indicate keyboard user input: <kbd> -->
+                <!-- USE FOR PORTFOLIO PAGE
+                    <ul class="media-list">
+                      <li class="media">
+                        <a class="pull-left" href="#">
+                          <img class="media-object" src="..." alt="...">
+                        </a>
+                        <div class="media-body">
+                          <h4 class="media-heading">Media heading</h4>
+                          ...
+                        </div>
+                      </li>
+                    </ul>
+                    -->
+                <!-- Insert pager 
+                <ul class="pager">
+                    <li class="previous"><a href="#">&larr; Older</a></li>
+                    <li class="next"><a href="#">Newer &rarr;</a></li>
+                </ul>
+                -->
+            <div class="spacer100"></div>
+        </div>
+            <div id="comments">
+                <div id="disqus_thread">
+                    <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                        var disqus_shortname = 'pbyriel'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+                    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+                    </noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+                </div>
+            </div>
+        <div class="footer"></div>
     </div>
-    <div class="col-sm-6">
-        <img class="img-responsive" src="" alt="">
-    </div>
-</div>
+</body>
+    

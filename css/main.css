@@ -7,6 +7,9 @@
     right: 40px;
     top: 5px;}
 
+.page-header {
+border-bottom: 1px dotted #eee;}
+
 .header h1 {
   font-size: 22px;
   padding: 0 0 5px 0;
@@ -54,3 +57,15 @@ ol.index .meta a {
     opacity: 0.3;
     margin: 0 10px 0 -40px;
     font-size: 10px;}
+
+.spacer100 {
+    padding-bottom: 100px;
+}
+
+.spacer50 {
+    padding-bottom: 50px;
+}
+
+.last {
+    padding-bottom: 20px;
+}
