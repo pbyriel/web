@@ -21,17 +21,22 @@
                 <a href="mailto:peter.byriel@gmail.com">
                 <img src="../img/iconmonstr-email-3-black.png"></a>
             </div>
-            <h1 class="page-header">What I learned from hosting this on Heroku</h1>
+            <h1 class="page-header">What I learned about deploying to Heroku</h1>
             <div class="nav">
                 <a href="../home.html">home</a>
             </div>
         </div>
         <div class="content">
-            <p class="text-left">Having heard a lot about heroku and being curious, I decided to go ahead and host this page there. I quickly ran into a lot of problems - which could all have been avoided easily. So here are some tips for deploying your app or page.</p>
+            <p class="text-left">Having heard about <a href="http://www.heroku.com" target="_blank">heroku</a> and being curious, I decided to go ahead and host this page there. My goal was to learn a bit about the backend of web dev. I quickly ran into a lot of problems - which could all have been avoided easily. So here are some very practical tips for deploying your app or page.</p>
+            <h2>Get the Toolbelt</h2>
+            <p class="text-left">You  need to be able to run heroku commands from the console. In order to do this, you should download the herouku <a href="https://toolbelt.heroku.com/" target="blank">toolbelt</a>. Follow the download instructions and then look at the next section below. 
             <h2>Static or dynamic?</h2>
-            <p class="text-left"></p>
-            <h2>Using git for deployment</h2>
-            <p class="text-left"></p>
+            <p class="text-left">Heruko was build for running serverside apps, i.e. dynamic pages. To make a static page work at heruko you have to make it think the page is dynamic. The easy fix for this is to include a index.php file which points to the main html page of your site.</p>
+            <p class="text-left">The proces is explained really well at this resource: <a href="http://www.lemiffe.com/how-to-deploy-a-static-page-to-heroku-the-easy-way/">"How to deploy a static page to heruko the easy way"</a> by lemiffe.</p>
+
+            <h2>Using git and github for deployment</h2>
+            <p class="text-left">If you're not familiar working with git, there is a really great guide here, made by Git and Code School.</p>
+            <p class="text-left">Once you've gone through the guide, get an account at <a href="http:www.github.com">github</a>.</p>
             <div class="spacer100"></div>
             <!-- REUSABLE CSS COMPONENTS FROM BOOTSTRAP -->
                 <!-- For multiple code lines: <pre> -->
