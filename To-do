@@ -1,16 +1,18 @@
 To do:
 
+DANDOMAIN
 Få eget favicon på - kontakt 
 
 CSS
+Ikon for Medium
 Få css på plads for glyphicon
-Skriv to artikler
+Læg ind i skabelon
+Gem herokupage som dummy-post.html i posts-mappen
 Lav side for portfolio (i grid) 
     hvordan laver man blanket med text på hover?
-Læg ind i skabelon
+Skriv to artikler
 Finpuds css 
 
-Læg på Thinkful, få kommentarer
-
 DISQUS
-Tjek disqus.com 
+Skaler DISQUS 
+Tjek integration med disqus.com 
