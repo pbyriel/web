@@ -6,6 +6,8 @@
     position: relative;
     right: 40px;
     top: 5px;}
+.social a:hover {
+    text-decoration: none;}
 
 .page-header {
 border-bottom: 1px dotted #eee;}
@@ -19,9 +21,9 @@ border-bottom: 1px dotted #eee;}
   float: right; }
 .header img {
       width: 20px;
-    opacity: 0.3; }
+    opacity: 0.6; }
 .header img:hover {
-    opacity: 1; }
+    opacity: 1;}
 
 .home .nav {
     display: none;
