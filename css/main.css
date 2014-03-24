@@ -1,11 +1,11 @@
 .container {
   width: 650px;
-  font-size: 14px; }
+  font-size: 1.1em; }
 
 .social {
     position: relative;
-    left: -33px;
-    top: 10px;}
+    left: -2.8em;
+    top: 0.9em;}
 .social a:hover {
     text-decoration: none;}
 
@@ -13,20 +13,20 @@
 border-bottom: 1px dotted #eee;}
 
 .header h1 {
-  font-size: 22px;
+  font-size: 1.5em;
   padding: 0 0 5px 0;
-  margin: 30px 0 30px 0;}
+  margin: 35px 0 30px 0;}
 .header .nav {
   margin-top: -55px;
   float: right; }
 .header img {
-    width: 24px;
+    width: 1.8em;
     opacity: 0.7; }
 .header img:hover {
     opacity: 1;}
 .homeimg {
     position: relative;
-    left: 10px;
+    left: 1em;
 }
 
 .home .nav {
@@ -40,30 +40,20 @@ ol.index li {
     line-height: 22px; }
 ol.index .header  {
     color: #999999;
-    font-size: 12px;}
+    font-size: 0.9em;}
 ol.index .header {
     float: left;
     min-width: 115px; }
 ol.index .main {
-    font-size: 14px;
     color: #cccccc;
     margin: 0 0 0 10px;
     display: inline-block;
-    max-width: 55%;
-    line-height: 1.3em; }
-ol.index .meta {
-    float: right;
-    color: #cccccc;
-    font-size: 12px;
-    vertical-align: top; }
-ol.index .meta a {
-      color: #cccccc;
-      font-size: 11px; }
+    max-width: 55%;}
 
 .glyphicon-forward {
     opacity: 0.3;
-    margin: 0 10px 0 -40px;
-    font-size: 12px;
+    margin: 0 0 0 -2em;
+    font-size: 1em;
     }
 
 .spacer100 {
