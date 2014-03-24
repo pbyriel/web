@@ -23,6 +23,10 @@ border-bottom: 1px dotted #eee;}
 .header img:hover {
     opacity: 1; }
 
+.home .nav {
+    display: none;
+}
+
 ol.index {
   list-style-type: none;
   margin: 25px 0 70px -30px; }
