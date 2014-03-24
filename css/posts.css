@@ -2,20 +2,10 @@
   display: inherit; }
 
 h2 {
-    font-size: 16px;}
-
-
+    font-size: 1.2em;}
 
 .caption h2 {
-    font-size: 14px;
-}
+    font-size: 14px;}
 
-
-.last {
-    padding-bottom: 20px;
-}
-
-.highlight {
-    padding-top: -20px;
-    padding-bottom: -20px;
-}
+h3 {
+    font-size: 1.1em;}
