@@ -5,7 +5,7 @@
 .social {
     position: relative;
     left: -33px;
-    top: 5px;}
+    top: 10px;}
 .social a:hover {
     text-decoration: none;}
 
@@ -20,10 +20,14 @@ border-bottom: 1px dotted #eee;}
   margin-top: -55px;
   float: right; }
 .header img {
-      width: 24px;
+    width: 24px;
     opacity: 0.7; }
 .header img:hover {
     opacity: 1;}
+.homeimg {
+    position: relative;
+    left: 10px;
+}
 
 .home .nav {
     display: none;
