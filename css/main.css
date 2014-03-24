@@ -1,5 +1,5 @@
 .container {
-  width: 650px;
+  max-width: 600px;
   font-size: 1.1em; }
 
 .social {
