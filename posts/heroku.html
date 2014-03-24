@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="#">
     <title>&#64;pbyriel</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
     <link href="../css/main.css" media="screen" rel="stylesheet">
@@ -39,7 +40,7 @@
             <h2>Using git and github for deployment</h2>
             <p class="text-left">If you're not familiar working with git, this is a really <a href="http://try.github.io" target="_blank">great guide</a>, made by Git and Code School. It only takes about 15 minutes and is well worth it.</p>
             <p class="text-left">Once you've gone through the guide, get an account at <a href="http:www.github.com">github</a>.</p>
-            <p class="text-left">Next, fire up your console. Once started, use the <code>cd</code> command to switch to the folder you want to stage to git. Then type in the commands to add a new local git repo. Stage, commit - but don't push to git just yet. Your commands should look lise this (<code>$</code> representing your prompt):</p>
+            <p class="text-left">Next, fire up your console. Once started, use the <code>cd</code> command to switch to the folder you want to stage to git. Then type in the commands to add a new local git repo. Stage, commit - but don't push to git just yet. Your commands should look like this (<code>$</code> representing your prompt):</p>
                 <pre>$ git init // initialize this folder as a repo<br>$ git add . // stage all changes<br>$ git commit -am "Your message here" // commit changes<br>// remember: don't push changes to git just yet</pre>
             <p class="text-left">Now it's time to make a heroku app and deploy your git repo to it:</p>
             <pre>$ heroku create // create new app at heruko<br>$ git push heroku master // pushes the master branch to heroku</pre>
