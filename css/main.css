@@ -4,7 +4,6 @@
 
 .social {
     position: relative;
-    right: 40px;
     top: 5px;}
 .social a:hover {
     text-decoration: none;}
@@ -20,7 +19,7 @@ border-bottom: 1px dotted #eee;}
   margin-top: -55px;
   float: right; }
 .header img {
-      width: 20px;
+      width: 24px;
     opacity: 0.6; }
 .header img:hover {
     opacity: 1;}
