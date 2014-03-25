@@ -1,9 +1,5 @@
 .container {
-  <!--max-width: 450px-->;
-  font-size: 1.1em;}
-
-#title {
-    max-width: 400px;}
+    font-size: 1.1em;}
 
 .col-centered {
     float: none;
@@ -15,25 +11,22 @@
     top: 0.9em;}
 .icons a:hover {
     text-decoration: none;}
-
-.page-header {
-border-bottom: 1px dotted #eee;}
-
-.content h1 {
-  font-size: 1.5em;
-  padding: 0 0 5px 0;
-  margin: 37px 0 30px 0;}
 .icons img {
     width: 1.7em;
     margin-right: 3px;
-    opacity: 0.7; }
+    opacity: 0.7;}
 img:hover {
     opacity: 1;}
 .homeimg {
     position: relative;
-    left: 1em;
-}
+    left: 1em;}
 
+.page-header {
+    border-bottom: 1px dotted #eee;}
+.content h1 {
+    font-size: 1.5em;
+    padding: 0 0 5px 0;
+    margin: 37px 0 30px 0;}
 h2 {
     font-size: 1.2em;}
 .caption h2 {
@@ -42,20 +35,19 @@ h3 {
     font-size: 1.1em;}
 
 .img_grid {
-    max-width: 400px;
-}
+    max-width: 400px;}
 
 ol.index {
-  list-style-type: none;
-  margin: 25px 0 70px -30px; }
+    list-style-type: none;
+    margin: 25px 0 70px -30px;}
 ol.index li {
-    line-height: 22px; }
+    line-height: 22px;}
 ol.index .header  {
     color: #999999;
     font-size: 0.9em;}
 ol.index .header {
     float: left;
-    min-width: 100px; }
+    min-width: 100px;}
 ol.index .main {
     color: #cccccc;
     margin: 0 0 0 10px;
