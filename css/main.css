@@ -33,6 +33,10 @@ border-bottom: 1px dotted #eee;}
     display: none;
 }
 
+/*
+#slashy {}
+*/
+
 ol.index {
   list-style-type: none;
   margin: 25px 0 70px -30px; }
