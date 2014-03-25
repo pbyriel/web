@@ -43,18 +43,12 @@ ol.index .header  {
     font-size: 0.9em;}
 ol.index .header {
     float: left;
-    min-width: 115px; }
+    min-width: 100px; }
 ol.index .main {
     color: #cccccc;
     margin: 0 0 0 10px;
     display: inline-block;
     max-width: 55%;}
-
-.glyphicon-forward {
-    opacity: 0.3;
-    margin: 0 0 0 -2em;
-    font-size: 1em;
-    }
 
 .spacer100 {
     padding-bottom: 100px;}
