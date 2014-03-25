@@ -36,6 +36,8 @@ h3 {
 
 .img_grid {
     max-width: 400px;}
+.img_grid a {
+    text-decoration: none;}
 
 ol.index {
     list-style-type: none;
