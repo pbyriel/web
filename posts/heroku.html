@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="#">
     <title>pbyriel</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link href="../css/main.css" rel="stylesheet">
-    <link href="../css/posts.css" rel="stylesheet">
 </head>
-<body class="home">
-    <div class="container .col-xs-1">
+<body>
+    <div class="container col-xs-6 col-centered">
         <div class="header">
-            <div class="social">
+            <div class="icons">
                 <a href="http://www.twitter.com/pbyriel" target="_blank">
                     <img src="../img/iconmonstr-twitter-black.png">
                 </a>
@@ -23,9 +22,10 @@
                 </a>
                     <a href="../home.html"><img class="homeimg" src="../img/iconmonstr-home3.png"></a>
             </div>
-            <h1 class="page-header">What I learned about deploying to Heroku</h1>
         </div>
         <div class="content">
+            <div class="post">
+            <h1 class="page-header">What I learned about deploying to Heroku</h1>
             <p class="text-left">I wanted to see how to actually deploy an app or a page to a cloud service provider. I went with <a href="http://www.heroku.com" target="_blank">heroku</a> and quickly ran into a lot of problems - which could easily have been avoided. So here are some  practical tips for deployment.</p>
             <h2>Get an account at Heroku</h2>
             <p class="text-left">Go to <a href="http:www.heroku.com" target="_blank">heroku.com</a> and register for an account. But once done, don't create an app yet - we'll build it later using git (this makes the proces as a whole much easier).</p>
@@ -66,7 +66,6 @@
                     <li class="next"><a href="#">Newer &rarr;</a></li>
                 </ul>
                 -->
-        </div>
             <div id="comments">
                 <div id="disqus_thread">
                     <script type="text/javascript">
@@ -84,8 +83,9 @@
                     </noscript>
             <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                 </div>
+                </div>
             </div>
-        <div class="footer"></div>
+            </div>
     </div>
 </body>
     

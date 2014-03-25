@@ -1,41 +1,49 @@
 .container {
-  max-width: 450px;
-  font-size: 1.1em; }
+  <!--max-width: 450px-->;
+  font-size: 1.1em;}
 
-.social {
+#title {
+    max-width: 400px;}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;}
+
+.icons {
     position: relative;
     left: -2.8em;
     top: 0.9em;}
-.social a:hover {
+.icons a:hover {
     text-decoration: none;}
 
 .page-header {
 border-bottom: 1px dotted #eee;}
 
-.header h1 {
+.content h1 {
   font-size: 1.5em;
   padding: 0 0 5px 0;
   margin: 37px 0 30px 0;}
-.header .nav {
-  margin-top: -55px;
-  float: right; }
-.header img {
+.icons img {
     width: 1.7em;
     margin-right: 3px;
     opacity: 0.7; }
-.header img:hover {
+img:hover {
     opacity: 1;}
 .homeimg {
     position: relative;
     left: 1em;
 }
-.home .nav {
-    display: none;
-}
 
-/*
-#slashy {}
-*/
+h2 {
+    font-size: 1.2em;}
+.caption h2 {
+    font-size: 14px;}
+h3 {
+    font-size: 1.1em;}
+
+.img_grid {
+    max-width: 400px;
+}
 
 ol.index {
   list-style-type: none;
